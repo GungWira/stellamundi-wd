@@ -252,3 +252,54 @@ h2 {
   opacity: 0.6;
 }
 /* PROMOTION SECTION */
+
+/* ACTIVITY SECTION */
+.activity {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activity .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.activity .top {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.activity .top h2 {
+  width: 100%;
+  max-width: 600px;
+}
+.activity .top p {
+  width: 100%;
+  max-width: 300px;
+  text-align: right;
+}
+.activity .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+.activity .image {
+  display: flex;
+  flex: 1;
+  aspect-ratio: 5 / 3;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.activity .image img {
+  width: 100%;
+}
+
+/* ACTIVITY SECTION */
