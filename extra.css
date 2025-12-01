@@ -1,0 +1,161 @@
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1000;
+}
+
+.navbar .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  opacity: 0.6;
+}
+
+.contact-btn {
+  background: #000;
+  color: #fff;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  opacity: 0.8;
+}
+
+/* FOOTER */
+.footer {
+  background: #121212; /* gelap */
+  color: #dfe8ea;
+  padding: 60px 0 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 50px;
+}
+
+/* LEFT SIDE */
+.footer-left .brand {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.footer-left p {
+  line-height: 1.6;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.social-icons a span {
+  font-size: 18px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.social-icons a span:hover {
+  opacity: 1;
+}
+
+.back-top {
+  background: transparent;
+  color: #dfe8ea;
+  border: 1px solid #dfe8ea;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-top:hover {
+  background: #dfe8ea;
+  color: #0f1a1c;
+}
+
+/* CENTER & RIGHT */
+.footer-center h4,
+.footer-right h4 {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.footer-center ul,
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center ul li,
+.footer-right ul li {
+  margin-bottom: 10px;
+}
+
+.footer-center a,
+.footer-right a {
+  text-decoration: none;
+  color: #dfe8ea;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.footer-center a:hover,
+.footer-right a:hover {
+  opacity: 1;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  margin-top: 40px;
+  background: #f1f1f1; /* warna kuning seperti gambar */
+  padding: 12px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #0f1a1c;
+  font-weight: 500;
+}
